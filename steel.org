@@ -1,4 +1,4 @@
-#+TITLE: Steel!
+#+TITLE: How to Escape the Iron Age?
 #+AUTHOR: Isaac Feldman
 
 * Disclaimer
@@ -7,16 +7,29 @@
 - I am not a civil engineer
 - I am not a climate scientist
 - I'm just a weirdo with a passion for materials
-
 #+end_quote
 
-* TODO What is steel?
+#+begin_comment
+Begin with the disclaimer.
+
+This presentation is heavily inspired by the excellent article "How to Escape From the Iron Age?" by Kris De Decker in Low-Tech Magazine. 
+#+end_comment
+
+* What is steel?
+- Alloy of iron and carbon
+- You can get all sorts of useful materials from this!
+
+  [[file:images/Bessemerbirne.jpg]]
+
+#+begin_comment
+What is steel? It is an alloy of iron and carbon and sometimes other materials like chromium. It has impressive strength, the raw materials are abundant and cheap. If you change the ratios you can get materials that are very hard, or very corrosion resistant (like stainless steel).
+#+end_comment
 
 * We make a lot of it
 
 - 1.866 Gt globally in 2024 (up from 0.885Gt in 2000)
 - Roughly 231 kg per person [fn:1]
-- More than global Aluminium (0.069Gt) + Copper (0.023Gt) [fn:2]
+- More than global Aluminum (0.069Gt) + Copper (0.023Gt) [fn:2]
 
 * Pop Quiz: Where is all the steel!?
 Steel is in a lot of stuff, but where is most of it?
@@ -43,12 +56,12 @@ If cars and trains and planes only use 17% where the heck is all the steel? Do I
 #+end_comment
   
 * Tanget 1: Rebar
-- Since the mid 19th century, we've been reinforing concrete with steel to make it better.[fn:3]
+- Since the mid 19th century, we've been reinforcing concrete with steel to make it better.[fn:3]
 - Increased tensile strength
 - Steel expands at a very similar rate to concrete.[fn:4]
 - Now we can pour concrete into basically any shape and size
 
-[[file:Rebar_worker.jpg]]
+[[file:images/Rebar_worker.jpg]]
 https://commons.wikimedia.org/wiki/File:Rebar_worker.jpg
 
 #+begin_comment
@@ -67,10 +80,95 @@ https://commons.wikimedia.org/wiki/File:Rebar_worker.jpg
   - cables
   - railroad tracks
 
-* TODO The bad news
-- Making steel takes a lot of energy (~20 GJ/ton)
+* The bad news
+- Making steel takes a lot of energy (~20 GJ/ton) [fn:10]
+- Steel/iron industry uses more energy and emits more carbon than any other industry
+  
+[[file:images/industry-direct-co2-emissions-in-the-sustainable-development-scenario-2000-2030.png]][fn:9]
 
-* Footnotes
+  #+begin_comment
+Making a ton of steel uses an unfathomable amount of energy: around 20GJ. That's just under half the electricity usage of a single family home over a year.
+That's much better than the 175 GJ/ton of Aluminum, but remember we make a lot of steel.
+
+In 2021, the iron and steel industry produced 3.3 Gt of carbon emissions, roughly 9% of global emissions (36.3 Gt)
+
+Oh and all of these figures only refer to the *direct* emissions and energy use of the industry.
+They don't factor in transportation or raw material production.
+  #+end_comment
+
+* The good news
+- Steel is *really* recyclable
+- Around 60% of steel is recycled! (2009) [fn:8]
+- Rebar is typically made with almost 100% recycled material. 
+- After demolition, between 60-70% of rebar is recycled (in the US) [fn:7]
+- Typically, recycling uses electric arc furnaces (EAF) which don't burn fossil fuels.
+
+  #+begin_comment
+  Steel is basically infinitely recyclable. Nearly 100% of the feedstock used for producing reinforcing bars is provided by recycled ferrous scrap.
+After buildings are torn down a good amount of the rebar (and concrete!) is recovered for recycling.
+Some of this recycling happens in electric arc furnaces (in the US)!
+  #+end_comment
+
+
+* The worse news
+- The energy intensity of steel production hasn't changed much in the past 20 years.
+- There's not enough scrap to meet steel demand. The steel is currently in use! [fn:10]
+- A green electic grid uses more steel than fossil fuels [fn:11]
+
+  #+begin_comment
+As much as I love rebar, this story isn't over. The energy intensity of steel production hasn't gotten better in the past 20 years.
+We have made some technologies that help: mainly EAF, but new steel production is mostly being done with blast oxygen furnaces far away from the scrap steel stock.
+
+Steel is really recyclable! Why don't we stop making virgin steel and just use recycled steel instead? There's not enough!
+The residence time of steel in the economy is about 40 years and thus the amount of recycled material available today reflects the production level of 40 years ago.
+
+Okay well if we can't recycle everything, then let's just switch to using EAF to make virgin steel. We'll need more electricity, but we can just build more solar panels and windmills.
+Awkward moment, building a low-carbon grid would require *even more* steel. Steel that we will have to make with fossil fuels.
+
+
+  #+end_comment
+
+* Conclusion: Can we Escape the Iron Age?
+
+
+** High Tech
+
+- decrease the energy intensity of the steel industry:
+  - EAFs
+  - hydrogen in BOFs
+  - nuclear power! [fn:11]
+
+** Low Tech
+
+- decrease the demand for steel:
+  - make cars lighter
+  - alternate building materials (wood, composites, etc.)
+  
+#+begin_comment
+We've got ourselves a bit of a catch 22 here. Even if we want to make the industry of steel production more sustainable, we'd have to make the problem a bit worse before it would get any better. Who says we'd even make it any better if we can just keep pumping out more steel from BOFs.
+
+The way I see it we have two options:
+
+The high tech and the low tech.
+
+On the high tech side, we could aggressively adopt new technology to reduce the energy intensity of the steel industry: more EAF, replacing coke with hydrogen, more efficient raw-materials transport, etc.
+
+The low tech side is a bit more obvious: find ways to lower the demand for steel into the range where we could produce the majority of the needed steel from scrap. 
+
+Probably only a clever combination of the two sides will be able to extract us from this conundrum. 
+#+end_comment
+
+
+* Footnotes 
+[fn:11] https://doi.org/10.1016/j.resconrec.2020.105200 
+
+[fn:10] https://www.pismin.com/10.1016/j.jenvman.2019.109782 
+
+[fn:9] https://www.iea.org/data-and-statistics/charts/industry-direct-co2-emissions-in-the-sustainable-development-scenario-2000-2030 
+[fn:8] https://web.archive.org/web/20080414215636/http://encarta.msn.com/encyclopedia_761556346/Recycling.html 
+
+[fn:7] https://web.archive.org/web/20220127092845/https://www.crsi.org/index.cfm/architecture/recycling 
+[fn:6] https://www.crsi.org/reinforced-concrete-benefits/green-construction/ 
 
 [fn:1] https://web.archive.org/web/20250909165013/https://worldsteel.org/data/world-steel-in-figures/world-steel-in-figures-2024/
 [fn:2] https://nora.nerc.ac.uk/id/eprint/539285/ 
